@@ -1,0 +1,9 @@
+read 20 cards
+[plan] [harness 3575 chars] {"plan": {"0": [6, 15, 5], "1": [2, 0, 1], "2": [10, 1, 18], "3": [16, 19], "4": [4, 7, 9]}}
+[plan] 0 'a reading lamp for my desk' -> 
+[plan] 1 'a comfortable office chair' -> 
+[plan] 2 'a bookshelf for about 60 books' -> 
+[plan] 3 'a small wool rug for the bedroom' -> 
+[plan] 4 'a mirror for the hallway' -> 
+[alloc] [harness 706 chars] {"choice": {"0": {"shop": "Shop A", "cap": 50}, "1": {"shop": "Shop B", "cap": 180}, "2": {"shop": "Shop C", "cap": 140}, "3": {"shop": "Shop A", "cap": 110}, "4": {"shop": "Shop B", "cap": 90}}}
+RESULT {"bought": {}, "missing": ["a reading lamp for my desk", "a comfortable office chair", "a bookshelf for about 60 books", "a small wool rug for the bedroom", "a mirror for the hallway"], "total": 0, "budget": 650, "all_bought": false, "within_budget": true, "no_duplicates": true, "harness_calls": 2, "max_prompt_chars": 3575, "mean_move_prompt_chars": 0, "seconds": 13}
