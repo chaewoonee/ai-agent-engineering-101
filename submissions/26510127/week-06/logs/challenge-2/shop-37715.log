@@ -1,0 +1,5 @@
+[c303cdc5] buyer: a comfortable office chair
+[c303cdc5] [search] 8 candidates: cha-00520, cha-00521, cha-00522, cha-00523, cha-00524, cha-00525, cha-00526, cha-00527
+[c303cdc5] [harness] pick {"action": "pick", "id": "cha-00525"}
+[c303cdc5] [harness] {"action": "counter", "price": 220}
+[c303cdc5] ASK 220

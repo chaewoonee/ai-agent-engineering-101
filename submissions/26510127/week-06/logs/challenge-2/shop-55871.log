@@ -1,0 +1,5 @@
+[79e12267] buyer: a bookshelf for about 60 books
+[79e12267] [search] 8 candidates: boo-00073, boo-00175, boo-00174, boo-00115, boo-00120, boo-00248, boo-00103, boo-00184
+[79e12267] [harness] pick {"action": "pick", "id": "boo-00175"}
+[79e12267] [harness] {"action": "counter", "price": 300}
+[79e12267] ASK 300

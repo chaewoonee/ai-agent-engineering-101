@@ -1,0 +1,14 @@
+[082211d3] buyer: a small wool rug for the bedroom
+[082211d3] [search] 8 candidates: rug-02086, rug-02093, rug-02097, rug-02102, rug-02104, rug-02107, rug-02111, rug-02116
+[082211d3] [harness] pick {"action": "pick", "id": "rug-02107"}
+[082211d3] [harness] {"action": "counter", "price": 95}
+[082211d3] ASK 95
+[082211d3] buyer: 75
+[082211d3] [harness] {"action": "counter", "price": 85}
+[082211d3] ASK 85
+[082211d3] buyer: 80
+[082211d3] [harness] {"action": "counter", "price": 82}
+[082211d3] ASK 82
+[082211d3] buyer: 81
+[082211d3] [harness] {"action": "accept"}
+[082211d3] DEAL Loft Standard Wool Rug in Olive at 81

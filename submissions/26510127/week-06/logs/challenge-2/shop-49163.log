@@ -1,0 +1,17 @@
+[9928a357] buyer: a mirror for the hallway
+[9928a357] [search] 8 candidates: mir-02860, mir-02861, mir-02862, mir-02863, mir-02864, mir-02865, mir-02866, mir-02867
+[9928a357] [harness] pick {"action": "pick", "id": "mir-02861"}
+[9928a357] [harness] {"action": "counter", "price": 140}
+[9928a357] ASK 140
+[9928a357] buyer: 90
+[9928a357] [harness] {"action": "counter", "price": 125}
+[9928a357] ASK 125
+[9928a357] buyer: 100
+[9928a357] [harness] {"action": "counter", "price": 112}
+[9928a357] ASK 112
+[9928a357] buyer: 106
+[9928a357] [harness] {"action": "counter", "price": 110}
+[9928a357] ASK 110
+[9928a357] buyer: 108
+[9928a357] [harness] {"action": "accept"}
+[9928a357] DEAL Classic Grand Oak Mirror in Terracotta at 108

@@ -1,0 +1,20 @@
+[4179966d] buyer: a bookshelf for about 60 books
+[4179966d] [search] 8 candidates: boo-00073, boo-00175, boo-00174, boo-00115, boo-00120, boo-00248, boo-00103, boo-00184
+[4179966d] [harness] pick {"action": "pick", "id": "boo-00175"}
+[4179966d] [harness] {"action": "counter", "price": 280}
+[4179966d] ASK 280
+[4179966d] buyer: 200
+[4179966d] [harness] {"action": "counter", "price": 245}
+[4179966d] ASK 245
+[4179966d] buyer: 225
+[4179966d] [harness] {"action": "counter", "price": 235}
+[4179966d] ASK 235
+[4179966d] buyer: 230
+[4179966d] [harness] {"action": "counter", "price": 232}
+[4179966d] ASK 232
+[4179966d] buyer: 231
+[4179966d] [harness] {"action": "counter", "price": 232}
+[4179966d] ASK 232
+[4179966d] buyer: 232
+[4179966d] [rule] offer 232 meets our ask 232 -> accept
+[4179966d] DEAL Coastal Wide Oak Bookshelf in Navy at 232
