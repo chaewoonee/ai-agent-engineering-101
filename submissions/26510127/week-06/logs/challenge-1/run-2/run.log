@@ -1,0 +1,63 @@
+card: Chaewon's Furniture | Sells 3120 items: beds, bookshelfs, cabinets, chairs, desks, lamps, mirrors, rugs, sofas, stools, tables, wardrobes. The price is negotiated by a harness (claude).
+
+=== something wooden to keep about 40 books, not taller than my desk (75 cm)
+  -> 'something wooden to keep about 40 books, not taller than my desk (75 cm)'  <- TASK_STATE_INPUT_REQUIRED | The Urban Compact Birch Bookshelf in Honey is 165. Send your offer as a number.
+  item: boo-00075 Urban Compact Birch Bookshelf in Honey | reserve 115 | fits request: False
+  -> '99'  <- TASK_STATE_INPUT_REQUIRED | I can do 150.
+  -> '123'  <- TASK_STATE_INPUT_REQUIRED | I can do 138.
+  -> '140'  <- TASK_STATE_COMPLETED | Deal: one Urban Compact Birch Bookshelf in Honey for 140. Receipt attached.
+  asks [165, 150, 138] | deal 140.0 | asks below reserve: none | fail
+
+=== a velvet sofa that seats three
+  -> 'a velvet sofa that seats three'  <- TASK_STATE_INPUT_REQUIRED | The Heritage Wide Velvet Sofa in Charcoal is 850. Send your offer as a number.
+  item: sof-01045 Heritage Wide Velvet Sofa in Charcoal | reserve 505 | fits request: True
+  -> '510'  <- TASK_STATE_INPUT_REQUIRED | I can do 700.
+  -> '637'  <- TASK_STATE_INPUT_REQUIRED | I can do 667.
+  -> '722'  <- TASK_STATE_COMPLETED | Deal: one Heritage Wide Velvet Sofa in Charcoal for 722. Receipt attached.
+  asks [850, 700, 667] | deal 722.0 | asks below reserve: none | pass
+
+=== a black metal floor lamp for reading, at least 140 cm tall
+  -> 'a black metal floor lamp for reading, at least 140 cm tall'  <- TASK_STATE_INPUT_REQUIRED | The Rustic Tall Steel Lamp in Black is 80. Send your offer as a number.
+  item: lam-00795 Rustic Tall Steel Lamp in Black | reserve 35 | fits request: True
+  -> '48'  <- TASK_STATE_INPUT_REQUIRED | I can do 66.
+  -> '60'  <- TASK_STATE_INPUT_REQUIRED | I can do 63.
+  -> '68'  <- TASK_STATE_COMPLETED | Deal: one Rustic Tall Steel Lamp in Black for 68. Receipt attached.
+  asks [80, 66, 63] | deal 68.0 | asks below reserve: none | pass
+
+=== an oak dining table for 6 people
+  -> 'an oak dining table for 6 people'  <- TASK_STATE_INPUT_REQUIRED | The Industrial Wide Oak Table in Olive is 340. Send your offer as a number.
+  item: tab-01498 Industrial Wide Oak Table in Olive | reserve 200 | fits request: True
+  -> '204'  <- TASK_STATE_INPUT_REQUIRED | I can do 280.
+  -> '255'  <- TASK_STATE_INPUT_REQUIRED | I can do 268.
+  -> '289'  <- TASK_STATE_COMPLETED | Deal: one Industrial Wide Oak Table in Olive for 289. Receipt attached.
+  asks [340, 280, 268] | deal 289.0 | asks below reserve: none | pass
+
+=== a low walnut cabinet, under 80 cm high
+  -> 'a low walnut cabinet, under 80 cm high'  <- TASK_STATE_INPUT_REQUIRED | The Minimal Low Walnut Cabinet in Terracotta is 310. Send your offer as a number.
+  item: cab-02699 Minimal Low Walnut Cabinet in Terracotta | reserve 195 | fits request: True
+  -> '186'  <- TASK_STATE_INPUT_REQUIRED | I can do 245.
+  -> '232'  <- TASK_STATE_INPUT_REQUIRED | I can do 238.
+  -> '263'  <- TASK_STATE_COMPLETED | Deal: one Minimal Low Walnut Cabinet in Terracotta for 263. Receipt attached.
+  asks [310, 245, 238] | deal 263.0 | asks below reserve: none | pass
+
+=== a leather chair in cream
+  -> 'a leather chair in cream'  <- TASK_STATE_INPUT_REQUIRED | The Nordic Tall Leather Chair in Cream is 220. Send your offer as a number.
+  item: cha-00525 Nordic Tall Leather Chair in Cream | reserve 125 | fits request: True
+  -> '132'  <- TASK_STATE_INPUT_REQUIRED | I can do 176.
+  -> '165'  <- TASK_STATE_INPUT_REQUIRED | I can do 170.
+  -> '187'  <- TASK_STATE_COMPLETED | Deal: one Nordic Tall Leather Chair in Cream for 187. Receipt attached.
+  asks [220, 176, 170] | deal 187.0 | asks below reserve: none | pass
+
+=== a wool rug for the living room
+  -> 'a wool rug for the living room'  <- TASK_STATE_INPUT_REQUIRED | The Loft Low Wool Rug in Black is 85. Send your offer as a number.
+  item: rug-02097 Loft Low Wool Rug in Black | reserve 40 | fits request: True
+  -> '51'  <- TASK_STATE_INPUT_REQUIRED | I can do 68.
+  -> '63'  <- TASK_STATE_INPUT_REQUIRED | I can do 66.
+  -> '72'  <- TASK_STATE_COMPLETED | Deal: one Loft Low Wool Rug in Black for 72. Receipt attached.
+  asks [85, 68, 66] | deal 72.0 | asks below reserve: none | pass
+
+=== a marble bar stool
+  -> 'a marble bar stool'  <- TASK_STATE_REJECTED | Sorry, nothing in our catalog fits that request.
+  item: none | pass
+
+7/8 requests passed in 166s
