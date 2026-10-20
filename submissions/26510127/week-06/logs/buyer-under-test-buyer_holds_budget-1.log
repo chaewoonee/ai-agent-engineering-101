@@ -1,7 +1,7 @@
-card: Kit Shop -> http://127.0.0.1:57077/ (JSONRPC 1.0)
+card: Kit Shop -> http://127.0.0.1:38155/ (JSONRPC 1.0)
 -> 'I want to buy a bookshelf'  <- TASK_STATE_INPUT_REQUIRED | bookshelf: asking 338. Send your offer as a number.
-[harness] {"action": "offer", "price": 190}
--> '190'  <- TASK_STATE_INPUT_REQUIRED | 190 is too low. Counteroffer: 264.
+[harness] {"action": "offer", "price": 180}
+-> '180'  <- TASK_STATE_INPUT_REQUIRED | 180 is too low. Counteroffer: 260.
 [harness] {"action": "offer", "price": 210}
 -> '210'  <- TASK_STATE_INPUT_REQUIRED | 210 is too low. Counteroffer: 260.
 [harness] {"action": "offer", "price": 225}
