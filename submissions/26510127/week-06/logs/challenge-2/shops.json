@@ -1,0 +1,220 @@
+[
+ {
+  "name": "Oak & Ash",
+  "categories": [
+   "cabinet",
+   "chair",
+   "sofa",
+   "desk"
+  ],
+  "markup": 1.29,
+  "port": 39565,
+  "url": "http://127.0.0.1:39565"
+ },
+ {
+  "name": "Lumen House",
+  "categories": [
+   "chair",
+   "bookshelf",
+   "bed",
+   "stool"
+  ],
+  "markup": 1.35,
+  "port": 43507,
+  "url": "http://127.0.0.1:43507"
+ },
+ {
+  "name": "Seat Works",
+  "categories": [
+   "chair",
+   "table"
+  ],
+  "markup": 1.11,
+  "port": 46207,
+  "url": "http://127.0.0.1:46207"
+ },
+ {
+  "name": "Paper Shelf",
+  "categories": [
+   "wardrobe",
+   "bed",
+   "lamp",
+   "stool"
+  ],
+  "markup": 1.04,
+  "port": 41423,
+  "url": "http://127.0.0.1:41423"
+ },
+ {
+  "name": "Hallway Goods",
+  "categories": [
+   "table",
+   "mirror",
+   "bed",
+   "desk"
+  ],
+  "markup": 1.18,
+  "port": 42393,
+  "url": "http://127.0.0.1:42393"
+ },
+ {
+  "name": "Loom Rugs",
+  "categories": [
+   "bed",
+   "desk",
+   "lamp"
+  ],
+  "markup": 1.16,
+  "port": 53159,
+  "url": "http://127.0.0.1:53159"
+ },
+ {
+  "name": "North Studio",
+  "categories": [
+   "lamp",
+   "desk"
+  ],
+  "markup": 0.94,
+  "port": 35781,
+  "url": "http://127.0.0.1:35781"
+ },
+ {
+  "name": "Urban Nest",
+  "categories": [
+   "mirror",
+   "sofa",
+   "cabinet"
+  ],
+  "markup": 1.21,
+  "port": 38737,
+  "url": "http://127.0.0.1:38737"
+ },
+ {
+  "name": "Brightside",
+  "categories": [
+   "stool",
+   "desk"
+  ],
+  "markup": 1.31,
+  "port": 38877,
+  "url": "http://127.0.0.1:38877"
+ },
+ {
+  "name": "Timber Lane",
+  "categories": [
+   "mirror",
+   "lamp",
+   "cabinet"
+  ],
+  "markup": 1.16,
+  "port": 60715,
+  "url": "http://127.0.0.1:60715"
+ },
+ {
+  "name": "The Reading Room",
+  "categories": [
+   "bookshelf",
+   "cabinet"
+  ],
+  "markup": 1.18,
+  "port": 39155,
+  "url": "http://127.0.0.1:39155"
+ },
+ {
+  "name": "Cozy Corner",
+  "categories": [
+   "chair",
+   "cabinet",
+   "table"
+  ],
+  "markup": 1.17,
+  "port": 60361,
+  "url": "http://127.0.0.1:60361"
+ },
+ {
+  "name": "Glass & Steel",
+  "categories": [
+   "chair",
+   "cabinet",
+   "sofa"
+  ],
+  "markup": 1.15,
+  "port": 42735,
+  "url": "http://127.0.0.1:42735"
+ },
+ {
+  "name": "Rattan Row",
+  "categories": [
+   "chair",
+   "mirror",
+   "bed"
+  ],
+  "markup": 1.32,
+  "port": 49607,
+  "url": "http://127.0.0.1:49607"
+ },
+ {
+  "name": "Second Home",
+  "categories": [
+   "mirror",
+   "chair"
+  ],
+  "markup": 1.35,
+  "port": 50021,
+  "url": "http://127.0.0.1:50021"
+ },
+ {
+  "name": "Little Loft",
+  "categories": [
+   "bed",
+   "table",
+   "lamp",
+   "desk"
+  ],
+  "markup": 1.31,
+  "port": 35671,
+  "url": "http://127.0.0.1:35671"
+ },
+ {
+  "name": "Maple Street",
+  "categories": [
+   "rug",
+   "lamp"
+  ],
+  "markup": 1.1,
+  "port": 38649,
+  "url": "http://127.0.0.1:38649"
+ },
+ {
+  "name": "Quiet Rooms",
+  "categories": [
+   "desk",
+   "mirror"
+  ],
+  "markup": 1.25,
+  "port": 40927,
+  "url": "http://127.0.0.1:40927"
+ },
+ {
+  "name": "Coast Living",
+  "categories": [
+   "bookshelf",
+   "cabinet",
+   "table"
+  ],
+  "markup": 1.2,
+  "port": 36215,
+  "url": "http://127.0.0.1:36215"
+ },
+ {
+  "name": "Heritage Hall",
+  "categories": [
+   "wardrobe",
+   "rug",
+   "bookshelf"
+  ],
+  "markup": 1.28,
+  "port": 60355,
+  "url": "http://127.0.0.1:60355"
+ }
+]

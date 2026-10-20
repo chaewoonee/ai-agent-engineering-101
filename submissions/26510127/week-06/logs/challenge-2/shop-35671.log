@@ -1,0 +1,5 @@
+[67e0d7c0] buyer: a reading lamp for my desk
+[67e0d7c0] [search] 8 candidates: des-00260, des-00261, des-00262, des-00263, lam-00780, lam-00781, lam-00782, lam-00783
+[67e0d7c0] [harness] pick {"action": "pick", "id": "lam-00781"}
+[67e0d7c0] [harness] {"action": "counter", "price": 60}
+[67e0d7c0] ASK 60

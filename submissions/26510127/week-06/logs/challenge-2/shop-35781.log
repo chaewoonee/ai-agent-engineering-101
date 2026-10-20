@@ -1,0 +1,17 @@
+[c428a3eb] buyer: a reading lamp for my desk
+[c428a3eb] [search] 8 candidates: des-00260, des-00261, des-00262, des-00263, lam-00780, lam-00781, lam-00782, lam-00783
+[c428a3eb] [harness] pick {"action": "pick", "id": "lam-00781"}
+[c428a3eb] [harness] {"action": "counter", "price": 42}
+[c428a3eb] ASK 42
+[c428a3eb] buyer: 28
+[c428a3eb] [harness] {"action": "counter", "price": 34}
+[c428a3eb] ASK 34
+[c428a3eb] buyer: 31
+[c428a3eb] [harness] {"action": "counter", "price": 33}
+[c428a3eb] ASK 33
+[c428a3eb] buyer: 32
+[c428a3eb] [harness] {"action": "counter", "price": 33}
+[c428a3eb] ASK 33
+[c428a3eb] buyer: 33
+[c428a3eb] [rule] offer 33 meets our ask 33 -> accept
+[c428a3eb] DEAL Minimal Low Glass Lamp in Honey at 33

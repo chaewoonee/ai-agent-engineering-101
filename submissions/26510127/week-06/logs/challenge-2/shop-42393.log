@@ -1,0 +1,5 @@
+[cafdedb1] buyer: a mirror for the hallway
+[cafdedb1] [search] 8 candidates: mir-02860, mir-02861, mir-02862, mir-02863, mir-02864, mir-02865, mir-02866, mir-02867
+[cafdedb1] [harness] pick {"action": "pick", "id": "mir-02861"}
+[cafdedb1] [harness] {"action": "counter", "price": 160}
+[cafdedb1] ASK 160

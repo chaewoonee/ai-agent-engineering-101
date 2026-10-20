@@ -1,0 +1,5 @@
+[37e02f41] buyer: a bookshelf for about 60 books
+[37e02f41] [search] 8 candidates: boo-00073, boo-00175, boo-00174, boo-00115, boo-00120, boo-00248, boo-00103, boo-00184
+[37e02f41] [harness] pick {"action": "pick", "id": "boo-00175"}
+[37e02f41] [harness] {"action": "counter", "price": 330}
+[37e02f41] ASK 330

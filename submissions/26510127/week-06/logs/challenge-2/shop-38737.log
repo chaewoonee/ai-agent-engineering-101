@@ -1,0 +1,17 @@
+[5d0ca870] buyer: a mirror for the hallway
+[5d0ca870] [search] 8 candidates: mir-02860, mir-02861, mir-02862, mir-02863, mir-02864, mir-02865, mir-02866, mir-02867
+[5d0ca870] [harness] pick {"action": "pick", "id": "mir-02861"}
+[5d0ca870] [harness] {"action": "counter", "price": 140}
+[5d0ca870] ASK 140
+[5d0ca870] buyer: 70
+[5d0ca870] [harness] {"action": "counter", "price": 120}
+[5d0ca870] ASK 120
+[5d0ca870] buyer: 85
+[5d0ca870] [harness] {"action": "counter", "price": 102}
+[5d0ca870] ASK 102
+[5d0ca870] buyer: 95
+[5d0ca870] [harness] {"action": "counter", "price": 100}
+[5d0ca870] ASK 100
+[5d0ca870] buyer: 98
+[5d0ca870] [harness] {"action": "accept"}
+[5d0ca870] DEAL Classic Grand Oak Mirror in Terracotta at 98
