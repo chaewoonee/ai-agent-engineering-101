@@ -1,0 +1,102 @@
+[0c58fcd7] buyer: something wooden to keep about 40 books, not taller than my desk (75 cm)
+[0c58fcd7] [search] 8 candidates: boo-00071, boo-00075, boo-00158, boo-00178, boo-00242, boo-00191, boo-00116, boo-00208
+[0c58fcd7] [harness] pick {"action": "pick", "id": "boo-00116"}
+[0c58fcd7] [harness] {"action": "counter", "price": 200}
+[0c58fcd7] ASK 200
+[0c58fcd7] buyer: 120
+[0c58fcd7] [harness] {"action": "counter", "price": 160}
+[0c58fcd7] ASK 160
+[0c58fcd7] buyer: 150
+[0c58fcd7] [harness] {"action": "counter", "price": 155}
+[0c58fcd7] ASK 155
+[0c58fcd7] buyer: 170
+[0c58fcd7] [rule] offer 170 meets our ask 155 -> accept
+[0c58fcd7] DEAL Classic Standard Birch Bookshelf in Natural at 170
+[ef4fd562] buyer: a velvet sofa that seats three
+[ef4fd562] [search] 8 candidates: sof-01042, sof-01045, sof-01046, sof-01061, sof-01064, sof-01077, sof-01082, sof-01087
+[ef4fd562] [harness] pick {"action": "pick", "id": "sof-01045"}
+[ef4fd562] [harness] {"action": "counter", "price": 750}
+[ef4fd562] ASK 750
+[ef4fd562] buyer: 450
+[ef4fd562] [harness] {"action": "counter", "price": 650}
+[ef4fd562] ASK 650
+[ef4fd562] buyer: 562
+[ef4fd562] [harness] {"action": "counter", "price": 606}
+[ef4fd562] ASK 606
+[ef4fd562] buyer: 637
+[ef4fd562] [rule] offer 637 meets our ask 606 -> accept
+[ef4fd562] DEAL Heritage Wide Velvet Sofa in Charcoal at 637
+[c8be25e5] buyer: a black metal floor lamp for reading, at least 140 cm tall
+[c8be25e5] [search] 8 candidates: lam-00795, lam-00825, lam-00933, lam-01031, lam-00782, lam-00796, lam-00805, lam-00849
+[c8be25e5] [harness] pick {"action": "pick", "id": "lam-00795"}
+[c8be25e5] [harness] {"action": "counter", "price": 58}
+[c8be25e5] ASK 58
+[c8be25e5] buyer: 34
+[c8be25e5] [harness] {"action": "counter", "price": 46}
+[c8be25e5] ASK 46
+[c8be25e5] buyer: 43
+[c8be25e5] [harness] {"action": "counter", "price": 45}
+[c8be25e5] ASK 45
+[c8be25e5] buyer: 49
+[c8be25e5] [rule] offer 49 meets our ask 45 -> accept
+[c8be25e5] DEAL Rustic Tall Steel Lamp in Black at 49
+[5ad18ea8] buyer: an oak dining table for 6 people
+[5ad18ea8] [search] 8 candidates: tab-01318, tab-01328, tab-01403, tab-01498, tab-01305, tab-01314, tab-01346, tab-01353
+[5ad18ea8] [harness] pick {"action": "pick", "id": "tab-01498"}
+[5ad18ea8] [harness] {"action": "counter", "price": 360}
+[5ad18ea8] ASK 360
+[5ad18ea8] buyer: 216
+[5ad18ea8] [harness] {"action": "counter", "price": 300}
+[5ad18ea8] ASK 300
+[5ad18ea8] buyer: 270
+[5ad18ea8] [harness] {"action": "counter", "price": 285}
+[5ad18ea8] ASK 285
+[5ad18ea8] buyer: 306
+[5ad18ea8] [rule] offer 306 meets our ask 285 -> accept
+[5ad18ea8] DEAL Industrial Wide Oak Table in Olive at 306
+[dffbcb16] buyer: a low walnut cabinet, under 80 cm high
+[dffbcb16] [search] 8 candidates: cab-02627, cab-02645, cab-02663, cab-02699, cab-02756, cab-02839, cab-02601, cab-02605
+[dffbcb16] [harness] pick {"action": "pick", "id": "cab-02699"}
+[dffbcb16] [harness] {"action": "counter", "price": 280}
+[dffbcb16] ASK 280
+[dffbcb16] buyer: 168
+[dffbcb16] [harness] {"action": "counter", "price": 240}
+[dffbcb16] ASK 240
+[dffbcb16] buyer: 210
+[dffbcb16] [harness] {"action": "counter", "price": 225}
+[dffbcb16] ASK 225
+[dffbcb16] buyer: 238
+[dffbcb16] [rule] offer 238 meets our ask 225 -> accept
+[dffbcb16] DEAL Minimal Low Walnut Cabinet in Terracotta at 238
+[12110a92] buyer: a leather chair in cream
+[12110a92] [search] 8 candidates: cha-00525, cha-00520, cha-00539, cha-00543, cha-00544, cha-00559, cha-00566, cha-00567
+[12110a92] [harness] pick {"action": "pick", "id": "cha-00525"}
+[12110a92] [harness] {"action": "counter", "price": 210}
+[12110a92] ASK 210
+[12110a92] buyer: 126
+[12110a92] [harness] {"action": "counter", "price": 170}
+[12110a92] ASK 170
+[12110a92] buyer: 157
+[12110a92] [harness] {"action": "counter", "price": 164}
+[12110a92] ASK 164
+[12110a92] buyer: 178
+[12110a92] [rule] offer 178 meets our ask 164 -> accept
+[12110a92] DEAL Nordic Tall Leather Chair in Cream at 178
+[529ab5b1] buyer: a wool rug for the living room
+[529ab5b1] [search] 8 candidates: rug-02086, rug-02093, rug-02097, rug-02102, rug-02104, rug-02107, rug-02111, rug-02116
+[529ab5b1] [harness] pick {"action": "pick", "id": "rug-02097"}
+[529ab5b1] [harness] {"action": "counter", "price": 100}
+[529ab5b1] ASK 100
+[529ab5b1] buyer: 60
+[529ab5b1] [harness] {"action": "counter", "price": 85}
+[529ab5b1] ASK 85
+[529ab5b1] buyer: 75
+[529ab5b1] [harness] {"action": "counter", "price": 80}
+[529ab5b1] ASK 80
+[529ab5b1] buyer: 85
+[529ab5b1] [rule] offer 85 meets our ask 80 -> accept
+[529ab5b1] DEAL Loft Low Wool Rug in Black at 85
+[b4e5efe0] buyer: a marble bar stool
+[b4e5efe0] [search] 8 candidates: sto-02340, sto-02341, sto-02342, sto-02343, sto-02344, sto-02345, sto-02346, sto-02347
+[b4e5efe0] [harness] pick {"action": "none"}
+[b4e5efe0] REJECT (no item)
