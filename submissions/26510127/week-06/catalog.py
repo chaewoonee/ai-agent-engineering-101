@@ -43,16 +43,23 @@ class Catalog:
         for t in q:
             expanded.append(t)
             expanded += SYN.get(t, [])
-        nums = [int(n) for n in re.findall(r"\d+", query)]
+        ql = query.lower()
+        # a number counts for an attribute only when it stands next to it: "40 books", "6 people", "75 cm"
+        wants = {f: int(n) for n, f in re.findall(r"(\d+)\s*(books|seats|people)", ql)}
+        cm = [int(n) for n in re.findall(r"(\d+)\s*cm", ql)]
+        lower = re.search(r"not taller|under|below|lower than|at most|no higher", ql)
+        higher = re.search(r"at least|taller than|over|higher than", ql)
         scored = []
         for it, words, cat in self._index:
             s = sum(3 if t in cat else 1 for t in set(expanded) if t in words)
             if not s:
                 continue
-            for n in nums:                                  # numbers near an attribute: prefer close values
-                for field in ("books", "seats", "people"):
-                    if field in it and field in query.lower():
-                        s += max(0.0, 2 - abs(it[field] - n) / max(n, 1) * 4)
+            for field, n in wants.items():                   # prefer values close to what the buyer said
+                if field in it:
+                    s += max(0.0, 2 - abs(it[field] - n) / max(n, 1) * 4)
+            for n in cm:                                      # a height limit in cm
+                if lower and it["height_cm"] <= n or higher and it["height_cm"] >= n:
+                    s += 1.5
             scored.append((s, it))
         scored.sort(key=lambda x: -x[0])
         # keep the list varied: at most k//2 candidates per category, so "a lamp for my desk" shows lamps
