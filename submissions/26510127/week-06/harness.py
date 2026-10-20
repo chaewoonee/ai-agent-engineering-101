@@ -38,11 +38,15 @@ def ask(prompt: str, timeout: int = 180, retries: int = 2) -> str:
 
 
 def ask_json(prompt: str) -> tuple[dict | None, str]:
-    """The first JSON object in the answer (None if there is none), and the raw answer for the log."""
+    """The first JSON object in the answer (None if there is none), and the raw answer for the log.
+    Decodes from each '{' with raw_decode, so nested objects ({"plan": {...}}) come back whole."""
     raw = ask(prompt)
-    for m in re.finditer(r"\{[^{}]*\}", raw, re.S):
+    dec = json.JSONDecoder()
+    for m in re.finditer(r"\{", raw):
         try:
-            return json.loads(m.group()), raw
+            obj, _ = dec.raw_decode(raw[m.start():])
         except json.JSONDecodeError:
             continue
+        if isinstance(obj, dict):
+            return obj, raw
     return None, raw
