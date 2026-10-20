@@ -1,0 +1,7 @@
+card: Kit Shop -> http://127.0.0.1:49413/ (JSONRPC 1.0)
+-> 'I want to buy a lamp'  <- TASK_STATE_INPUT_REQUIRED | lamp: asking 130. Send your offer as a number.
+[harness] {"action": "offer", "price": 95}
+-> '95'  <- TASK_STATE_INPUT_REQUIRED | 95 is too low. Counteroffer: 112.
+[harness] {"action": "offer", "price": 105}
+-> '105'  <- TASK_STATE_COMPLETED | Deal: lamp at 105.
+{"state": "TASK_STATE_COMPLETED", "artifacts": [{"artifactId": "c44636e8-777f-4df7-ae3d-02544abceb2c", "name": "receipt", "parts": [{"data": {"price": 105.0, "item": "lamp", "seller": "Kit Shop"}}]}]}
