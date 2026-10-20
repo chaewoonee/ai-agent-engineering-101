@@ -55,7 +55,18 @@ class Catalog:
                         s += max(0.0, 2 - abs(it[field] - n) / max(n, 1) * 4)
             scored.append((s, it))
         scored.sort(key=lambda x: -x[0])
-        return [it for _, it in scored[:k]]
+        # keep the list varied: at most k//2 candidates per category, so "a lamp for my desk" shows lamps
+        # next to desks instead of eight desks
+        out, per_cat = [], {}
+        for _, it in scored:
+            if per_cat.get(it["category"], 0) < max(1, k // 2):
+                out.append(it)
+                per_cat[it["category"]] = per_cat.get(it["category"], 0) + 1
+            if len(out) == k:
+                break
+        if len(out) < k:                                  # one category only: fill up with its next best
+            out += [it for _, it in scored if it not in out][:k - len(out)]
+        return out
 
     @staticmethod
     def brief(it):

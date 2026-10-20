@@ -48,8 +48,10 @@ PICK_PROMPT = """You are the sales agent of a furniture shop. A buyer wrote:
 Our search found these candidates (id: name - description):
 {candidates}
 
-Which one fits the buyer's request best? Check every constraint the buyer gave (material, size, height,
-capacity, colour). If none fits, say so. Answer with one JSON object and nothing else:
+Which one fits the buyer's request best? Check every hard constraint the buyer gave (kind of item, material,
+size, height, capacity, colour). Soft words such as "comfortable", "office" or "for the bedroom" are not in our
+descriptions; pick the closest item of the right kind for those. Say none only when no candidate is the right
+kind of item or a hard constraint fails for all of them. Answer with one JSON object and nothing else:
 {{"action": "pick", "id": "<id>"}}
 {{"action": "none"}}"""
 
