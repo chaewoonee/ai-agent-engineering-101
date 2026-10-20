@@ -1,0 +1,5 @@
+[8d590223] buyer: a mirror for the hallway
+[8d590223] [search] 8 candidates: mir-02860, mir-02861, mir-02862, mir-02863, mir-02864, mir-02865, mir-02866, mir-02867
+[8d590223] [harness] pick {"action": "pick", "id": "mir-02861"}
+[8d590223] [harness] {"action": "counter", "price": 160}
+[8d590223] ASK 160

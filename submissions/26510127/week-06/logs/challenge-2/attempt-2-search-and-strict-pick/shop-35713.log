@@ -1,0 +1,5 @@
+[edc22dd6] buyer: a small wool rug for the bedroom
+[edc22dd6] [search] 8 candidates: rug-02086, rug-02093, rug-02097, rug-02102, rug-02104, rug-02107, rug-02111, rug-02116
+[edc22dd6] [harness] pick {"action": "pick", "id": "rug-02107"}
+[edc22dd6] [harness] {"action": "counter", "price": 130}
+[edc22dd6] ASK 130

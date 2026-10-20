@@ -1,0 +1,9 @@
+[4307bf16] buyer: a bookshelf for about 60 books
+[4307bf16] [search] 8 candidates: boo-00073, boo-00175, boo-00174, boo-00115, boo-00120, boo-00248, boo-00103, boo-00184
+[4307bf16] [harness] pick {"action": "pick", "id": "boo-00175"}
+[4307bf16] [harness] {"action": "counter", "price": 320}
+[4307bf16] ASK 320
+[25fc00c4] buyer: a comfortable office chair
+[25fc00c4] [search] 8 candidates: cha-00520, cha-00521, cha-00522, cha-00523, cha-00524, cha-00525, cha-00526, cha-00527
+[25fc00c4] [harness] pick {"action": "none"}
+[25fc00c4] REJECT (no item)
